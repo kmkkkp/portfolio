@@ -1,10 +1,13 @@
 import React from 'react';
 import { TechDetails } from '../types';
+import { FaReact, } from "react-icons/fa";
+import { SiFlutter, SiTypescript, SiDjango, SiNodedotjs, SiDocker, SiNotion, SiJira   } from "react-icons/si";
+
 
 export const frontendTech: TechDetails[] = [
   {
     name: 'React',
-    icon: '⚛️',
+    icon: <FaReact />,
     experienceLevel: 90,
     yearsOfExperience: 3,
     keySkills: [
@@ -21,7 +24,7 @@ export const frontendTech: TechDetails[] = [
   },
   {
     name: 'Flutter',
-    icon: '📱',
+    icon: <SiFlutter/>,
     experienceLevel: 75,
     yearsOfExperience: 1,
     keySkills: [
@@ -37,7 +40,7 @@ export const frontendTech: TechDetails[] = [
   },
   {
     name: 'TypeScript',
-    icon: '📘',
+    icon: <SiTypescript/>,
     experienceLevel: 85,
     yearsOfExperience: 2,
     keySkills: [
@@ -56,7 +59,7 @@ export const frontendTech: TechDetails[] = [
 export const backendTech: TechDetails[] = [
   {
     name: 'Django',
-    icon: '🐍',
+    icon: <SiDjango/>,
     experienceLevel: 80,
     yearsOfExperience: 2,
     keySkills: [
@@ -71,7 +74,7 @@ export const backendTech: TechDetails[] = [
   },
   {
     name: 'Node.js',
-    icon: '🟢',
+    icon: <SiNodedotjs/>,
     experienceLevel: 85,
     yearsOfExperience: 2,
     keySkills: [
@@ -89,7 +92,7 @@ export const backendTech: TechDetails[] = [
 export const devOpsTech: TechDetails[] = [
   {
     name: 'Docker',
-    icon: '🐳',
+    icon: <SiDocker/>,
     experienceLevel: 75,
     yearsOfExperience: 1.5,
     keySkills: [
@@ -124,7 +127,7 @@ export const devOpsTech: TechDetails[] = [
 export const collaborationTech: TechDetails[] = [
   {
     name: 'Notion',
-    icon: '📝',
+    icon: <SiNotion/>,
     experienceLevel: 90,
     yearsOfExperience: 2,
     keySkills: [
@@ -136,7 +139,7 @@ export const collaborationTech: TechDetails[] = [
   },
   {
     name: 'Jira',
-    icon: '📊',
+    icon: <SiJira/>,
     experienceLevel: 85,
     yearsOfExperience: 1.5,
     keySkills: [

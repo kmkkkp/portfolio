@@ -28,8 +28,8 @@ const Header: React.FC = () => {
           김민규 <span className="text-xl sm:text-3xl font-light text-primary mb-2">입니다</span>
         </h1>
         <p className="text-2xl sm:text-3xl font-light text-text-secondary mb-8 max-w-2xl">
-          저는 소프트웨어 엔지니어로서, 다양한 기술 스택을 활용하여 문제를 해결하고, 
-          사용자 경험을 향상시키는 데 열정을 가지고 있습니다. 
+          저는 소프트웨어 엔지니어로서, <br/>주변의 사소한 문제를 발굴하고, <br/>
+          개선하는 목표와 열정을 가지고 있습니다. 
         </p>
         
         <div className="flex flex-wrap gap-4">
